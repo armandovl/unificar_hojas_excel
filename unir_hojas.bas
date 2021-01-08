@@ -1,5 +1,9 @@
-Attribute VB_Name = "M�dulo2"
+Attribute VB_Name = "Módulo2"
+
+
 Sub Unir_Hojas()
+'********Armando Valdés********
+'********Facebook : Cinta Negra en Excel********
 Dim Sig As Byte, Eliminar As Boolean
     For Sig = 2 To Worksheets.Count
         Worksheets(Sig).UsedRange.Copy _
